@@ -4,10 +4,14 @@ Create a class Calculator, which performs addition and subtraction of two number
 =end
 
 class Calculator
+# Please make sure you have 2 space indentation.
 def add(a,b)
+     # Please make sure you have 2 space indentation.
      sum = a.to_i + b.to_i
      puts("#{a} + #{b} = #{sum}")
 end
+     
+# Please make sure you have 2 space indentation.
 def subt(a,b)
      subt = a.to_i - b.to_i
      puts("#{a} - #{b} = #{subt}")
