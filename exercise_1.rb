@@ -5,12 +5,12 @@ Create a class Calculator, which performs addition and subtraction of two number
 
 class Calculator
 def add(a,b)
-     sum = a.to_i + b.to_i
-     puts("#{a} + #{b} = #{sum}")
+  sum = a.to_i + b.to_i
+  puts("#{a} + #{b} = #{sum}")
 end
 def subt(a,b)
-     subt = a.to_i - b.to_i
-     puts("#{a} - #{b} = #{subt}")
+  subt = a.to_i - b.to_i
+  puts("#{a} - #{b} = #{subt}")
 end
 end
 

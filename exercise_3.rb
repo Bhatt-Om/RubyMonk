@@ -7,10 +7,8 @@ Construct a method named 'find_frequency' which accepts two arguments 'sentence'
 Example: The method, given 'Ruby is The best language in the World' and 'the', should return 2 (comparison should be case-insensitive).
 =end
 
-def find_frequency(stRing,wordToCount)
-
-     #doncase turn string in to downcase[a..z] so sting become case-insensitive
-     stRing.downcase.split.count(wordToCount.downcase)
+def find_frequency(str, word_to_count)
+  str.downcase.split.count(word_to_count.downcase)
 end
 
 print find_frequency("Ruby is The best language in the world","the")
